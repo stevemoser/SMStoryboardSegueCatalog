@@ -1,0 +1,13 @@
+PODS:
+  - DCModalSegue (0.0.1)
+  - GC3DFlipTransitionStyleSegue (1.0.0)
+
+DEPENDENCIES:
+  - DCModalSegue (~> 0.0.1)
+  - GC3DFlipTransitionStyleSegue (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  DCModalSegue: 77eec66dfc711af904655fd2cb283ddb2934d831
+  GC3DFlipTransitionStyleSegue: 0c084926cb3f18ab810a0201cf7c79b62061f41d
+
+COCOAPODS: 0.20.2
