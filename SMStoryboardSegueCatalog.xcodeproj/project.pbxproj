@@ -24,6 +24,39 @@
 		87DA34351780A2C700886499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA340D1780A2C600886499 /* Foundation.framework */; };
 		87DA343D1780A2C700886499 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87DA343B1780A2C700886499 /* InfoPlist.strings */; };
 		87DA34401780A2C700886499 /* SMStoryboardSegueCatalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA343F1780A2C700886499 /* SMStoryboardSegueCatalogTests.m */; };
+		87DA344E1780B25A00886499 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA344D1780B25A00886499 /* QuartzCore.framework */; };
+		87DA34511780BD3F00886499 /* SMUnwindSegueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34501780BD3F00886499 /* SMUnwindSegueNavigationController.m */; };
+		87DA3503178265D100886499 /* SMAlignedCubeFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34C5178265D100886499 /* SMAlignedCubeFromBottom.m */; };
+		87DA3504178265D100886499 /* SMAlignedCubeFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34C7178265D100886499 /* SMAlignedCubeFromLeft.m */; };
+		87DA3505178265D100886499 /* SMAlignedCubeFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34C9178265D100886499 /* SMAlignedCubeFromRight.m */; };
+		87DA3506178265D100886499 /* SMAlignedCubeFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34CB178265D100886499 /* SMAlignedCubeFromTop.m */; };
+		87DA3507178265D100886499 /* SMCameraIris.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34CD178265D100886499 /* SMCameraIris.m */; };
+		87DA3508178265D100886499 /* SMCrossDissolve.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34CF178265D100886499 /* SMCrossDissolve.m */; };
+		87DA3509178265D100886499 /* SMCubeFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34D1178265D100886499 /* SMCubeFromBottom.m */; };
+		87DA350A178265D100886499 /* SMCubeFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34D3178265D100886499 /* SMCubeFromLeft.m */; };
+		87DA350B178265D100886499 /* SMCubeFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34D5178265D100886499 /* SMCubeFromRight.m */; };
+		87DA350C178265D100886499 /* SMCubeFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34D7178265D100886499 /* SMCubeFromTop.m */; };
+		87DA350D178265D100886499 /* SMCurlDownSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34D9178265D100886499 /* SMCurlDownSegue.m */; };
+		87DA350E178265D100886499 /* SMCurlUpSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34DB178265D100886499 /* SMCurlUpSegue.m */; };
+		87DA350F178265D100886499 /* SMFadeSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34DD178265D100886499 /* SMFadeSegue.m */; };
+		87DA3510178265D100886499 /* SMFlipFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34DF178265D100886499 /* SMFlipFromBottom.m */; };
+		87DA3511178265D100886499 /* SMFlipFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34E1178265D100886499 /* SMFlipFromLeft.m */; };
+		87DA3512178265D100886499 /* SMFlipFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34E3178265D100886499 /* SMFlipFromRight.m */; };
+		87DA3513178265D100886499 /* SMFlipFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34E5178265D100886499 /* SMFlipFromTop.m */; };
+		87DA3514178265D100886499 /* SMMoveInFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34E7178265D100886499 /* SMMoveInFromBottom.m */; };
+		87DA3515178265D100886499 /* SMMoveInFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34E9178265D100886499 /* SMMoveInFromLeft.m */; };
+		87DA3516178265D100886499 /* SMMoveInFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34EB178265D100886499 /* SMMoveInFromRight.m */; };
+		87DA3517178265D100886499 /* SMMoveInFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34ED178265D100886499 /* SMMoveInFromTop.m */; };
+		87DA3518178265D100886499 /* SMNone.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34EF178265D100886499 /* SMNone.m */; };
+		87DA3519178265D100886499 /* SMPushFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34F1178265D100886499 /* SMPushFromBottom.m */; };
+		87DA351A178265D100886499 /* SMPushFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34F3178265D100886499 /* SMPushFromLeft.m */; };
+		87DA351B178265D100886499 /* SMPushFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34F5178265D100886499 /* SMPushFromRight.m */; };
+		87DA351C178265D100886499 /* SMPushFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34F7178265D100886499 /* SMPushFromTop.m */; };
+		87DA351D178265D100886499 /* SMRevealFromBottom.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34F9178265D100886499 /* SMRevealFromBottom.m */; };
+		87DA351E178265D100886499 /* SMRevealFromLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34FB178265D100886499 /* SMRevealFromLeft.m */; };
+		87DA351F178265D100886499 /* SMRevealFromRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34FD178265D100886499 /* SMRevealFromRight.m */; };
+		87DA3520178265D100886499 /* SMRevealFromTop.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA34FF178265D100886499 /* SMRevealFromTop.m */; };
+		87DA3521178265D100886499 /* SMRippleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 87DA3501178265D100886499 /* SMRippleEffect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +94,72 @@
 		87DA343C1780A2C700886499 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		87DA343E1780A2C700886499 /* SMStoryboardSegueCatalogTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMStoryboardSegueCatalogTests.h; sourceTree = "<group>"; };
 		87DA343F1780A2C700886499 /* SMStoryboardSegueCatalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMStoryboardSegueCatalogTests.m; sourceTree = "<group>"; };
+		87DA344D1780B25A00886499 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		87DA344F1780BD3F00886499 /* SMUnwindSegueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUnwindSegueNavigationController.h; sourceTree = "<group>"; };
+		87DA34501780BD3F00886499 /* SMUnwindSegueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUnwindSegueNavigationController.m; sourceTree = "<group>"; };
+		87DA34C4178265D100886499 /* SMAlignedCubeFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAlignedCubeFromBottom.h; sourceTree = "<group>"; };
+		87DA34C5178265D100886499 /* SMAlignedCubeFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAlignedCubeFromBottom.m; sourceTree = "<group>"; };
+		87DA34C6178265D100886499 /* SMAlignedCubeFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAlignedCubeFromLeft.h; sourceTree = "<group>"; };
+		87DA34C7178265D100886499 /* SMAlignedCubeFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAlignedCubeFromLeft.m; sourceTree = "<group>"; };
+		87DA34C8178265D100886499 /* SMAlignedCubeFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAlignedCubeFromRight.h; sourceTree = "<group>"; };
+		87DA34C9178265D100886499 /* SMAlignedCubeFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAlignedCubeFromRight.m; sourceTree = "<group>"; };
+		87DA34CA178265D100886499 /* SMAlignedCubeFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMAlignedCubeFromTop.h; sourceTree = "<group>"; };
+		87DA34CB178265D100886499 /* SMAlignedCubeFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMAlignedCubeFromTop.m; sourceTree = "<group>"; };
+		87DA34CC178265D100886499 /* SMCameraIris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCameraIris.h; sourceTree = "<group>"; };
+		87DA34CD178265D100886499 /* SMCameraIris.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCameraIris.m; sourceTree = "<group>"; };
+		87DA34CE178265D100886499 /* SMCrossDissolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCrossDissolve.h; sourceTree = "<group>"; };
+		87DA34CF178265D100886499 /* SMCrossDissolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCrossDissolve.m; sourceTree = "<group>"; };
+		87DA34D0178265D100886499 /* SMCubeFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCubeFromBottom.h; sourceTree = "<group>"; };
+		87DA34D1178265D100886499 /* SMCubeFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCubeFromBottom.m; sourceTree = "<group>"; };
+		87DA34D2178265D100886499 /* SMCubeFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCubeFromLeft.h; sourceTree = "<group>"; };
+		87DA34D3178265D100886499 /* SMCubeFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCubeFromLeft.m; sourceTree = "<group>"; };
+		87DA34D4178265D100886499 /* SMCubeFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCubeFromRight.h; sourceTree = "<group>"; };
+		87DA34D5178265D100886499 /* SMCubeFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCubeFromRight.m; sourceTree = "<group>"; };
+		87DA34D6178265D100886499 /* SMCubeFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCubeFromTop.h; sourceTree = "<group>"; };
+		87DA34D7178265D100886499 /* SMCubeFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCubeFromTop.m; sourceTree = "<group>"; };
+		87DA34D8178265D100886499 /* SMCurlDownSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCurlDownSegue.h; sourceTree = "<group>"; };
+		87DA34D9178265D100886499 /* SMCurlDownSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCurlDownSegue.m; sourceTree = "<group>"; };
+		87DA34DA178265D100886499 /* SMCurlUpSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCurlUpSegue.h; sourceTree = "<group>"; };
+		87DA34DB178265D100886499 /* SMCurlUpSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCurlUpSegue.m; sourceTree = "<group>"; };
+		87DA34DC178265D100886499 /* SMFadeSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFadeSegue.h; sourceTree = "<group>"; };
+		87DA34DD178265D100886499 /* SMFadeSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFadeSegue.m; sourceTree = "<group>"; };
+		87DA34DE178265D100886499 /* SMFlipFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFlipFromBottom.h; sourceTree = "<group>"; };
+		87DA34DF178265D100886499 /* SMFlipFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFlipFromBottom.m; sourceTree = "<group>"; };
+		87DA34E0178265D100886499 /* SMFlipFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFlipFromLeft.h; sourceTree = "<group>"; };
+		87DA34E1178265D100886499 /* SMFlipFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFlipFromLeft.m; sourceTree = "<group>"; };
+		87DA34E2178265D100886499 /* SMFlipFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFlipFromRight.h; sourceTree = "<group>"; };
+		87DA34E3178265D100886499 /* SMFlipFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFlipFromRight.m; sourceTree = "<group>"; };
+		87DA34E4178265D100886499 /* SMFlipFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMFlipFromTop.h; sourceTree = "<group>"; };
+		87DA34E5178265D100886499 /* SMFlipFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMFlipFromTop.m; sourceTree = "<group>"; };
+		87DA34E6178265D100886499 /* SMMoveInFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMoveInFromBottom.h; sourceTree = "<group>"; };
+		87DA34E7178265D100886499 /* SMMoveInFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMoveInFromBottom.m; sourceTree = "<group>"; };
+		87DA34E8178265D100886499 /* SMMoveInFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMoveInFromLeft.h; sourceTree = "<group>"; };
+		87DA34E9178265D100886499 /* SMMoveInFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMoveInFromLeft.m; sourceTree = "<group>"; };
+		87DA34EA178265D100886499 /* SMMoveInFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMoveInFromRight.h; sourceTree = "<group>"; };
+		87DA34EB178265D100886499 /* SMMoveInFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMoveInFromRight.m; sourceTree = "<group>"; };
+		87DA34EC178265D100886499 /* SMMoveInFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMoveInFromTop.h; sourceTree = "<group>"; };
+		87DA34ED178265D100886499 /* SMMoveInFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMoveInFromTop.m; sourceTree = "<group>"; };
+		87DA34EE178265D100886499 /* SMNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMNone.h; sourceTree = "<group>"; };
+		87DA34EF178265D100886499 /* SMNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMNone.m; sourceTree = "<group>"; };
+		87DA34F0178265D100886499 /* SMPushFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushFromBottom.h; sourceTree = "<group>"; };
+		87DA34F1178265D100886499 /* SMPushFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPushFromBottom.m; sourceTree = "<group>"; };
+		87DA34F2178265D100886499 /* SMPushFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushFromLeft.h; sourceTree = "<group>"; };
+		87DA34F3178265D100886499 /* SMPushFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPushFromLeft.m; sourceTree = "<group>"; };
+		87DA34F4178265D100886499 /* SMPushFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushFromRight.h; sourceTree = "<group>"; };
+		87DA34F5178265D100886499 /* SMPushFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPushFromRight.m; sourceTree = "<group>"; };
+		87DA34F6178265D100886499 /* SMPushFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPushFromTop.h; sourceTree = "<group>"; };
+		87DA34F7178265D100886499 /* SMPushFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPushFromTop.m; sourceTree = "<group>"; };
+		87DA34F8178265D100886499 /* SMRevealFromBottom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRevealFromBottom.h; sourceTree = "<group>"; };
+		87DA34F9178265D100886499 /* SMRevealFromBottom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRevealFromBottom.m; sourceTree = "<group>"; };
+		87DA34FA178265D100886499 /* SMRevealFromLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRevealFromLeft.h; sourceTree = "<group>"; };
+		87DA34FB178265D100886499 /* SMRevealFromLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRevealFromLeft.m; sourceTree = "<group>"; };
+		87DA34FC178265D100886499 /* SMRevealFromRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRevealFromRight.h; sourceTree = "<group>"; };
+		87DA34FD178265D100886499 /* SMRevealFromRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRevealFromRight.m; sourceTree = "<group>"; };
+		87DA34FE178265D100886499 /* SMRevealFromTop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRevealFromTop.h; sourceTree = "<group>"; };
+		87DA34FF178265D100886499 /* SMRevealFromTop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRevealFromTop.m; sourceTree = "<group>"; };
+		87DA3500178265D100886499 /* SMRippleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMRippleEffect.h; sourceTree = "<group>"; };
+		87DA3501178265D100886499 /* SMRippleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMRippleEffect.m; sourceTree = "<group>"; };
+		87DA3502178265D100886499 /* SMUnwindSegueProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUnwindSegueProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DA344E1780B25A00886499 /* QuartzCore.framework in Frameworks */,
 				87DA340C1780A2C600886499 /* UIKit.framework in Frameworks */,
 				87DA340E1780A2C600886499 /* Foundation.framework in Frameworks */,
 				87DA34101780A2C600886499 /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +209,7 @@
 		87DA340A1780A2C600886499 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				87DA344D1780B25A00886499 /* QuartzCore.framework */,
 				87DA340B1780A2C600886499 /* UIKit.framework */,
 				87DA340D1780A2C600886499 /* Foundation.framework */,
 				87DA340F1780A2C600886499 /* CoreGraphics.framework */,
@@ -120,6 +221,7 @@
 		87DA34111780A2C600886499 /* SMStoryboardSegueCatalog */ = {
 			isa = PBXGroup;
 			children = (
+				87DA34C3178265D100886499 /* SMStoryboardSegues */,
 				87DA341A1780A2C700886499 /* SMAppDelegate.h */,
 				87DA341B1780A2C700886499 /* SMAppDelegate.m */,
 				87DA34231780A2C700886499 /* MainStoryboard.storyboard */,
@@ -128,6 +230,8 @@
 				87DA34291780A2C700886499 /* SMDetailViewController.h */,
 				87DA342A1780A2C700886499 /* SMDetailViewController.m */,
 				87DA34121780A2C700886499 /* Supporting Files */,
+				87DA344F1780BD3F00886499 /* SMUnwindSegueNavigationController.h */,
+				87DA34501780BD3F00886499 /* SMUnwindSegueNavigationController.m */,
 			);
 			path = SMStoryboardSegueCatalog;
 			sourceTree = "<group>";
@@ -163,6 +267,92 @@
 				87DA343B1780A2C700886499 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87DA34C3178265D100886499 /* SMStoryboardSegues */ = {
+			isa = PBXGroup;
+			children = (
+				87DA3523178265FE00886499 /* UIViewAnimationTransition */,
+				87DA3522178265E500886499 /* CATransitions */,
+				87DA3502178265D100886499 /* SMUnwindSegueProtocol.h */,
+			);
+			path = SMStoryboardSegues;
+			sourceTree = SOURCE_ROOT;
+		};
+		87DA3522178265E500886499 /* CATransitions */ = {
+			isa = PBXGroup;
+			children = (
+				87DA34D0178265D100886499 /* SMCubeFromBottom.h */,
+				87DA34D1178265D100886499 /* SMCubeFromBottom.m */,
+				87DA34D2178265D100886499 /* SMCubeFromLeft.h */,
+				87DA34D3178265D100886499 /* SMCubeFromLeft.m */,
+				87DA34D4178265D100886499 /* SMCubeFromRight.h */,
+				87DA34D5178265D100886499 /* SMCubeFromRight.m */,
+				87DA34D6178265D100886499 /* SMCubeFromTop.h */,
+				87DA34D7178265D100886499 /* SMCubeFromTop.m */,
+				87DA34C4178265D100886499 /* SMAlignedCubeFromBottom.h */,
+				87DA34C5178265D100886499 /* SMAlignedCubeFromBottom.m */,
+				87DA34C6178265D100886499 /* SMAlignedCubeFromLeft.h */,
+				87DA34C7178265D100886499 /* SMAlignedCubeFromLeft.m */,
+				87DA34C8178265D100886499 /* SMAlignedCubeFromRight.h */,
+				87DA34C9178265D100886499 /* SMAlignedCubeFromRight.m */,
+				87DA34CA178265D100886499 /* SMAlignedCubeFromTop.h */,
+				87DA34CB178265D100886499 /* SMAlignedCubeFromTop.m */,
+				87DA34CC178265D100886499 /* SMCameraIris.h */,
+				87DA34CD178265D100886499 /* SMCameraIris.m */,
+				87DA34DC178265D100886499 /* SMFadeSegue.h */,
+				87DA34DD178265D100886499 /* SMFadeSegue.m */,
+				87DA34E6178265D100886499 /* SMMoveInFromBottom.h */,
+				87DA34E7178265D100886499 /* SMMoveInFromBottom.m */,
+				87DA34E8178265D100886499 /* SMMoveInFromLeft.h */,
+				87DA34E9178265D100886499 /* SMMoveInFromLeft.m */,
+				87DA34EA178265D100886499 /* SMMoveInFromRight.h */,
+				87DA34EB178265D100886499 /* SMMoveInFromRight.m */,
+				87DA34EC178265D100886499 /* SMMoveInFromTop.h */,
+				87DA34ED178265D100886499 /* SMMoveInFromTop.m */,
+				87DA34F0178265D100886499 /* SMPushFromBottom.h */,
+				87DA34F1178265D100886499 /* SMPushFromBottom.m */,
+				87DA34F2178265D100886499 /* SMPushFromLeft.h */,
+				87DA34F3178265D100886499 /* SMPushFromLeft.m */,
+				87DA34F4178265D100886499 /* SMPushFromRight.h */,
+				87DA34F5178265D100886499 /* SMPushFromRight.m */,
+				87DA34F6178265D100886499 /* SMPushFromTop.h */,
+				87DA34F7178265D100886499 /* SMPushFromTop.m */,
+				87DA34F8178265D100886499 /* SMRevealFromBottom.h */,
+				87DA34F9178265D100886499 /* SMRevealFromBottom.m */,
+				87DA34FA178265D100886499 /* SMRevealFromLeft.h */,
+				87DA34FB178265D100886499 /* SMRevealFromLeft.m */,
+				87DA34FC178265D100886499 /* SMRevealFromRight.h */,
+				87DA34FD178265D100886499 /* SMRevealFromRight.m */,
+				87DA34FE178265D100886499 /* SMRevealFromTop.h */,
+				87DA34FF178265D100886499 /* SMRevealFromTop.m */,
+				87DA3500178265D100886499 /* SMRippleEffect.h */,
+				87DA3501178265D100886499 /* SMRippleEffect.m */,
+			);
+			name = CATransitions;
+			sourceTree = "<group>";
+		};
+		87DA3523178265FE00886499 /* UIViewAnimationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				87DA34D8178265D100886499 /* SMCurlDownSegue.h */,
+				87DA34D9178265D100886499 /* SMCurlDownSegue.m */,
+				87DA34DA178265D100886499 /* SMCurlUpSegue.h */,
+				87DA34DB178265D100886499 /* SMCurlUpSegue.m */,
+				87DA34CE178265D100886499 /* SMCrossDissolve.h */,
+				87DA34CF178265D100886499 /* SMCrossDissolve.m */,
+				87DA34DE178265D100886499 /* SMFlipFromBottom.h */,
+				87DA34DF178265D100886499 /* SMFlipFromBottom.m */,
+				87DA34E0178265D100886499 /* SMFlipFromLeft.h */,
+				87DA34E1178265D100886499 /* SMFlipFromLeft.m */,
+				87DA34E2178265D100886499 /* SMFlipFromRight.h */,
+				87DA34E3178265D100886499 /* SMFlipFromRight.m */,
+				87DA34E4178265D100886499 /* SMFlipFromTop.h */,
+				87DA34E5178265D100886499 /* SMFlipFromTop.m */,
+				87DA34EE178265D100886499 /* SMNone.h */,
+				87DA34EF178265D100886499 /* SMNone.m */,
+			);
+			name = UIViewAnimationTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +469,38 @@
 				87DA341C1780A2C700886499 /* SMAppDelegate.m in Sources */,
 				87DA34281780A2C700886499 /* SMMasterViewController.m in Sources */,
 				87DA342B1780A2C700886499 /* SMDetailViewController.m in Sources */,
+				87DA34511780BD3F00886499 /* SMUnwindSegueNavigationController.m in Sources */,
+				87DA3503178265D100886499 /* SMAlignedCubeFromBottom.m in Sources */,
+				87DA3504178265D100886499 /* SMAlignedCubeFromLeft.m in Sources */,
+				87DA3505178265D100886499 /* SMAlignedCubeFromRight.m in Sources */,
+				87DA3506178265D100886499 /* SMAlignedCubeFromTop.m in Sources */,
+				87DA3507178265D100886499 /* SMCameraIris.m in Sources */,
+				87DA3508178265D100886499 /* SMCrossDissolve.m in Sources */,
+				87DA3509178265D100886499 /* SMCubeFromBottom.m in Sources */,
+				87DA350A178265D100886499 /* SMCubeFromLeft.m in Sources */,
+				87DA350B178265D100886499 /* SMCubeFromRight.m in Sources */,
+				87DA350C178265D100886499 /* SMCubeFromTop.m in Sources */,
+				87DA350D178265D100886499 /* SMCurlDownSegue.m in Sources */,
+				87DA350E178265D100886499 /* SMCurlUpSegue.m in Sources */,
+				87DA350F178265D100886499 /* SMFadeSegue.m in Sources */,
+				87DA3510178265D100886499 /* SMFlipFromBottom.m in Sources */,
+				87DA3511178265D100886499 /* SMFlipFromLeft.m in Sources */,
+				87DA3512178265D100886499 /* SMFlipFromRight.m in Sources */,
+				87DA3513178265D100886499 /* SMFlipFromTop.m in Sources */,
+				87DA3514178265D100886499 /* SMMoveInFromBottom.m in Sources */,
+				87DA3515178265D100886499 /* SMMoveInFromLeft.m in Sources */,
+				87DA3516178265D100886499 /* SMMoveInFromRight.m in Sources */,
+				87DA3517178265D100886499 /* SMMoveInFromTop.m in Sources */,
+				87DA3518178265D100886499 /* SMNone.m in Sources */,
+				87DA3519178265D100886499 /* SMPushFromBottom.m in Sources */,
+				87DA351A178265D100886499 /* SMPushFromLeft.m in Sources */,
+				87DA351B178265D100886499 /* SMPushFromRight.m in Sources */,
+				87DA351C178265D100886499 /* SMPushFromTop.m in Sources */,
+				87DA351D178265D100886499 /* SMRevealFromBottom.m in Sources */,
+				87DA351E178265D100886499 /* SMRevealFromLeft.m in Sources */,
+				87DA351F178265D100886499 /* SMRevealFromRight.m in Sources */,
+				87DA3520178265D100886499 /* SMRevealFromTop.m in Sources */,
+				87DA3521178265D100886499 /* SMRippleEffect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
